@@ -1,0 +1,88 @@
+*{
+    font-family: sans-serif;
+}
+.head{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 0%;
+    text-align: center;
+    background: linear-gradient(rgb(187, 184, 184),white);
+}
+h1{
+        text-align: center;
+        color: rgb(22, 198, 221);
+        -webkit-text-stroke: 0.7px black;
+    }
+    .foot{
+    display: block;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: black;
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    }
+    fieldset{
+        width: 200px;
+        border:4px solid grey;
+    }
+    input[type=text]{
+        width: 200px;
+        height: 30px;
+        margin-top: 10px; 
+    }
+    input[type=number]{
+        width: 200px;
+    
+        height: 30px;
+        margin-top: 10px; 
+    }
+    input[type=submit]{
+        background-color: white;
+      color: black;
+        text-align: center;
+font-size: 12pt;
+font-weight: bold;
+    }
+    input[type=submit]:hover{
+        transition: .7s;
+        background-color: rgb(22, 198, 221);
+        color: black;
+        font-weight: normal;
+    }
+    input,select{
+        width: 90%;
+        margin: 5px;
+        padding: 5px;
+    }
+    li{
+        display: inline-block;
+        padding: 5px 20px 5px 20px;
+        border: 2px solid black;
+    }
+    #act{
+        background: rgb(22, 198, 221); 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    li:hover{
+       background: rgb(22, 198, 221);
+    }
+.reg_course{
+    float: left;
+    width: 30%;
+    }
+.view_course{
+ position: absolute;
+ right: 25pc;
+        float: left;
+        width: 30%;
+ }
+table,td,th{
+        border: 2px solid rgb(22, 198, 221);
+    border-collapse: collapse;
+        }
